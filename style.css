@@ -1,0 +1,68 @@
+/* Custom CSS Enhancements for GLOSSARMOR Landing Page */
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+/* Glassmorphism effects */
+.glass-panel {
+  background: rgba(19, 27, 38, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Tab active style */
+.tab-btn.active {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: #06080d;
+  box-shadow: 0 4px 15px rgba(16, 185, 129, 0.35);
+}
+
+/* Comparison slider handle */
+#slider-handle {
+  touch-action: none;
+  user-select: none;
+}
+
+#slider-handle:hover > div:first-child {
+  box-shadow: 0 0 20px rgba(52, 211, 153, 0.9);
+}
+
+/* Subtitle gradient shine animation */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.text-shimmer {
+  background: linear-gradient(90deg, #94a3b8 0%, #ffffff 50%, #94a3b8 100%);
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shimmer 4s linear infinite;
+}
+
+/* FAQ Icon rotation */
+.faq-toggle.active i {
+  transform: rotate(180deg);
+  color: #34d399;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #06080d;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #10b981;
+}
