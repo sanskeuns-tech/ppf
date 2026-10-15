@@ -67,7 +67,7 @@ export default function BeforeAfterSlider() {
             className="relative w-full aspect-[16/9] sm:aspect-[21/9] rounded-2xl overflow-hidden shadow-2xl border border-slate-700 select-none cursor-ew-resize"
           >
             {/* Background Layer: AFTER (Protected, Ultra-Glossy) */}
-            <div className="absolute inset-0 bg-gradient-to-r from-slate-900 via-emerald-950/40 to-slate-950 flex items-center justify-center">
+            <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-rose-950/50 to-slate-950 flex items-center justify-center">
               <div className="w-full h-full relative overflow-hidden">
                 <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-brand-500/20 via-transparent to-black" />
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent skew-x-[-25deg] translate-x-20" />

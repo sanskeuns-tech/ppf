@@ -11,16 +11,19 @@ const config: Config = {
     extend: {
       colors: {
         brand: {
-          50: "#effaf6",
-          100: "#d7f3e9",
-          400: "#34d399",
-          500: "#10b981",
-          600: "#059669",
-          accent: "#38bdf8", // Sky Cyan
+          50: "#fff1f5",
+          100: "#ffe4ec",
+          200: "#fecddc",
+          300: "#f472b6", // blushing pink
+          400: "#fb7185", // radiant rose
+          500: "#f43f5e", // pink merona primer
+          600: "#e11d48", // deep blush rose
+          700: "#be123c",
+          accent: "#ec4899", // hot pink
           gold: "#f59e0b",
-          dark: "#0b0f17",
-          darker: "#06080d",
-          card: "#131b26",
+          dark: "#120912",
+          darker: "#090408",
+          card: "#180d17",
         },
       },
       fontFamily: {

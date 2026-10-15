@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <>
       {/* Top Banner Notice */}
-      <div className="bg-gradient-to-r from-brand-600 via-emerald-600 to-brand-accent text-white text-xs md:text-sm py-2 px-4 text-center font-medium shadow-md flex items-center justify-center gap-2">
+      <div className="bg-gradient-to-r from-brand-600 via-rose-600 to-brand-accent text-white text-xs md:text-sm py-2 px-4 text-center font-medium shadow-md flex items-center justify-center gap-2">
         <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold bg-black/20 text-white">
           PROMO SPESIAL
         </span>
@@ -32,21 +32,21 @@ export default function Navbar() {
       <header
         className={`sticky top-0 z-50 backdrop-blur-md transition-all duration-300 border-b ${
           isScrolled
-            ? "bg-brand-darker/95 border-slate-800 shadow-xl"
-            : "bg-brand-darker/80 border-slate-800/80"
+            ? "bg-brand-darker/95 border-rose-950/60 shadow-xl shadow-rose-950/30"
+            : "bg-brand-darker/80 border-rose-950/40"
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-500 to-brand-accent flex items-center justify-center shadow-lg shadow-brand-500/20 group-hover:scale-105 transition-transform">
-              <ShieldCheck className="w-6 h-6 text-brand-darker stroke-[2.5]" />
+            <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-500 via-rose-500 to-brand-accent flex items-center justify-center shadow-lg shadow-brand-500/30 group-hover:scale-105 transition-transform">
+              <ShieldCheck className="w-6 h-6 text-white stroke-[2.5]" />
             </div>
             <div>
-              <span className="text-xl font-extrabold tracking-tight bg-gradient-to-r from-white via-slate-100 to-brand-accent bg-clip-text text-transparent">
+              <span className="text-xl font-extrabold tracking-tight bg-gradient-to-r from-white via-rose-100 to-brand-400 bg-clip-text text-transparent">
                 GLOSS<span className="text-brand-400">ARMOR</span>
               </span>
-              <span className="block text-[10px] tracking-widest text-slate-400 uppercase font-semibold">
+              <span className="block text-[10px] tracking-widest text-rose-300/70 uppercase font-semibold">
                 PPF &amp; Coating Studio
               </span>
             </div>
@@ -80,7 +80,7 @@ export default function Navbar() {
               href="https://wa.me/6281234567890?text=Halo%20GlossArmor,%20saya%20mau%20tanya%20paket%20PPF%20dan%20Coating%20untuk%20kendaraan%20saya"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-emerald-700 text-white font-semibold text-sm shadow-lg shadow-brand-500/25 hover:shadow-brand-500/40 hover:-translate-y-0.5 transition-all"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-brand-500 via-rose-600 to-brand-600 hover:from-rose-600 hover:to-brand-700 text-white font-semibold text-sm shadow-lg shadow-brand-500/30 hover:shadow-brand-500/50 hover:-translate-y-0.5 transition-all"
             >
               <MessageCircle className="w-4 h-4" />
               <span>Konsultasi Gratis</span>

@@ -8,7 +8,7 @@ export default function FloatingWhatsApp() {
     <div className="fixed bottom-6 right-6 z-50 flex items-center gap-3">
       {/* Tooltip Pill */}
       <div className="hidden md:flex items-center gap-2 bg-slate-900 text-white text-xs py-2 px-3.5 rounded-full border border-brand-500/40 shadow-xl animate-bounce">
-        <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
+        <span className="w-2 h-2 rounded-full bg-rose-400 animate-ping" />
         <span>Konsultasi Bebas Antri via WA</span>
       </div>
 

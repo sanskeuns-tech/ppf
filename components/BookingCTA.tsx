@@ -26,7 +26,7 @@ export default function BookingCTA() {
             href="https://wa.me/6281234567890?text=Halo%20GlossArmor,%20saya%20mau%20ambil%20promo%20booking%20PPF%20/%20Coating%20minggu%20ini"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-gradient-to-r from-brand-500 via-emerald-600 to-brand-accent hover:from-brand-600 hover:to-emerald-700 text-white font-extrabold text-base shadow-2xl shadow-brand-500/30 hover:scale-105 transition-all"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-gradient-to-r from-brand-500 via-rose-600 to-brand-accent hover:from-rose-600 hover:to-brand-700 text-white font-extrabold text-base shadow-2xl shadow-brand-500/30 hover:scale-105 transition-all"
           >
             <MessageCircle className="w-5 h-5" />
             <span>Konsultasi &amp; Klaim Promo via WhatsApp</span>

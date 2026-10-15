@@ -22,7 +22,7 @@ export default function EducationComparison() {
         <div className="grid lg:grid-cols-2 gap-8 items-stretch">
           {/* CARD 1: PPF */}
           <div className="rounded-3xl p-8 bg-gradient-to-b from-brand-card to-slate-900 border-2 border-brand-500/40 relative shadow-xl flex flex-col justify-between">
-            <div className="absolute -top-3.5 left-8 px-4 py-1 rounded-full bg-brand-500 text-brand-darker font-black text-xs uppercase tracking-wider">
+            <div className="absolute -top-3.5 left-8 px-4 py-1 rounded-full bg-brand-500 text-white font-black text-xs uppercase tracking-wider shadow-md">
               Armor Fisik Anti-Baret
             </div>
 
@@ -90,7 +90,7 @@ export default function EducationComparison() {
 
           {/* CARD 2: CERAMIC COATING */}
           <div className="rounded-3xl p-8 bg-gradient-to-b from-brand-card to-slate-900 border border-slate-700/80 relative shadow-xl flex flex-col justify-between">
-            <div className="absolute -top-3.5 left-8 px-4 py-1 rounded-full bg-brand-accent text-slate-950 font-black text-xs uppercase tracking-wider">
+            <div className="absolute -top-3.5 left-8 px-4 py-1 rounded-full bg-brand-accent text-white font-black text-xs uppercase tracking-wider shadow-md">
               Kilap Kaca &amp; Anti-Jamur
             </div>
 

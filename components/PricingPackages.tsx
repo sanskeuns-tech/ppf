@@ -26,7 +26,7 @@ export default function PricingPackages() {
               onClick={() => setVehicleTab("mobil")}
               className={`px-6 sm:px-8 py-3 rounded-xl font-bold text-sm sm:text-base transition-all flex items-center gap-2 ${
                 vehicleTab === "mobil"
-                  ? "bg-gradient-to-r from-brand-500 to-emerald-600 text-brand-darker shadow-lg shadow-brand-500/25"
+                  ? "bg-gradient-to-r from-brand-500 via-rose-500 to-brand-accent text-white shadow-lg shadow-brand-500/40"
                   : "text-slate-400 hover:text-white"
               }`}
             >
@@ -37,7 +37,7 @@ export default function PricingPackages() {
               onClick={() => setVehicleTab("motor")}
               className={`px-6 sm:px-8 py-3 rounded-xl font-bold text-sm sm:text-base transition-all flex items-center gap-2 ${
                 vehicleTab === "motor"
-                  ? "bg-gradient-to-r from-brand-500 to-emerald-600 text-brand-darker shadow-lg shadow-brand-500/25"
+                  ? "bg-gradient-to-r from-brand-500 via-rose-500 to-brand-accent text-white shadow-lg shadow-brand-500/40"
                   : "text-slate-400 hover:text-white"
               }`}
             >
@@ -154,7 +154,7 @@ export default function PricingPackages() {
                 href="https://wa.me/6281234567890?text=Halo%20GlossArmor,%20saya%20tertarik%20dengan%20Paket%20PPF%20Front%20Shield%20Hybrid%20Mobil"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full py-3.5 rounded-xl bg-brand-500 hover:bg-brand-600 text-brand-darker font-black text-sm text-center shadow-lg shadow-brand-500/30 transition-all"
+                className="w-full py-3.5 rounded-xl bg-gradient-to-r from-brand-500 to-rose-600 hover:from-rose-600 hover:to-brand-700 text-white font-black text-sm text-center shadow-lg shadow-brand-500/30 transition-all"
               >
                 Booking Paket Favorit
               </a>
@@ -320,7 +320,7 @@ export default function PricingPackages() {
                 href="https://wa.me/6281234567890?text=Halo%20GlossArmor,%20saya%20tertarik%20dengan%20Paket%20PPF%20Essential%20Motor"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full py-3.5 rounded-xl bg-brand-500 hover:bg-brand-600 text-brand-darker font-black text-sm text-center shadow-lg shadow-brand-500/30 transition-all"
+                className="w-full py-3.5 rounded-xl bg-gradient-to-r from-brand-500 to-rose-600 hover:from-rose-600 hover:to-brand-700 text-white font-black text-sm text-center shadow-lg shadow-brand-500/30 transition-all"
               >
                 Booking Paket Ini
               </a>

@@ -20,7 +20,7 @@ export default function Hero() {
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.15]">
               Cat Asli Bebas Baret Kerikil,{" "}
               <br className="hidden sm:inline" />
-              <span className="bg-gradient-to-r from-brand-400 via-emerald-300 to-brand-accent bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-brand-300 via-rose-300 to-brand-accent bg-clip-text text-transparent">
                 Kilap Seperti Baru
               </span>{" "}
               Bertahun-tahun.
@@ -40,7 +40,7 @@ export default function Hero() {
             <div className="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
               <a
                 href="#paket-harga"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-gradient-to-r from-brand-500 to-emerald-600 hover:from-brand-600 hover:to-emerald-700 text-white font-bold text-base shadow-xl shadow-brand-500/25 hover:shadow-brand-500/40 hover:-translate-y-0.5 transition-all"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl bg-gradient-to-r from-brand-500 via-rose-600 to-brand-600 hover:from-brand-600 hover:to-rose-700 text-white font-bold text-base shadow-xl shadow-brand-500/30 hover:shadow-brand-500/50 hover:-translate-y-0.5 transition-all"
               >
                 <span>Pilih Paket Kendaraan Anda</span>
                 <ArrowRight className="w-5 h-5" />
